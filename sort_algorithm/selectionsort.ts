@@ -15,6 +15,6 @@ function selectionSort(myData: number[]): number[] {
 }
 
 
-const myData: number[] = [64, 34, 25, 12, 22, 11, 90];
+const myData: number[] = [64, 34, 25, 12, 22, 11, 90, 10];
 const mySortedData: number[] = selectionSort(myData);
 console.log("Sortiertes Array:", mySortedData);

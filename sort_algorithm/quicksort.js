@@ -21,3 +21,4 @@ function quickSort(arr, leftIndex = 0, rightIndex = arr.length - 1) {
     return arr;
 }
 console.log(quickSort(unsorted));
+//# sourceMappingURL=quicksort.js.map

@@ -12,3 +12,4 @@ function bubbleSort(myData) {
 const unsortedArray = [64, 34, 25, 12, 22, 11, 90];
 const sortedArray = bubbleSort(unsortedArray);
 console.log("Sortiertes Array:", sortedArray);
+//# sourceMappingURL=bubblesort.js.map

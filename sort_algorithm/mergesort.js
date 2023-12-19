@@ -36,3 +36,4 @@ function mergeSort(arr) {
     return merge(sortedLeft, sortedRight);
 }
 console.log(mergeSort(arr1));
+//# sourceMappingURL=mergesort.js.map

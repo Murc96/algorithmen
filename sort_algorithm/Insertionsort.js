@@ -13,3 +13,4 @@ function insertionSort(arr) {
 const myArray = [12, 11, 13, 5, 6];
 insertionSort(myArray);
 console.log("Sortiertes Array:", myArray);
+//# sourceMappingURL=Insertionsort.js.map

@@ -14,3 +14,4 @@ function selectionSort(myData) {
 const myData = [64, 34, 25, 12, 22, 11, 90, 10];
 const mySortedData = selectionSort(myData);
 console.log("Sortiertes Array:", mySortedData);
+//# sourceMappingURL=selectionsort.js.map

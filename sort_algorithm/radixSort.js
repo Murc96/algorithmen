@@ -19,10 +19,7 @@ function mostDigits(arr) {
     }
     return maxDigits;
 }
-console.log(getDigit(-457, 0));
-console.log(digitCount(791));
 let myUnsortedArr = [22, 555, 10, 799, 5000, 74, 431, 9999, 55643];
-console.log(mostDigits(myUnsortedArr));
 function radixSort(arr) {
     let maxDigits = mostDigits(arr);
     for (let k = 0; k < maxDigits; k++) {

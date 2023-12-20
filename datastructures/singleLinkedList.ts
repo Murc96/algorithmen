@@ -149,7 +149,9 @@ class SinglyLinkedList {
         }
 
         let delNode = this.get(index);
-
+        while(this.head!.next){
+            
+        }
         if (index === 0){
             this.shift();
         }
@@ -188,7 +190,6 @@ class SinglyLinkedList {
 
         return this;
     }
-
 }
 
 const myList = new SinglyLinkedList();
@@ -196,10 +197,9 @@ const myList = new SinglyLinkedList();
 myList.append(10);
 myList.append(5);
 myList.append(1);
-myList.append(16);
-myList.append(99);
 myList.append(2);
 
+myList.pop();
 
 console.log(myList);
 

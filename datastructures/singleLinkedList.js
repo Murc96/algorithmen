@@ -118,6 +118,8 @@ class SinglyLinkedList {
             return undefined;
         }
         let delNode = this.get(index);
+        while (this.head.next) {
+        }
         if (index === 0) {
             this.shift();
         }
@@ -152,9 +154,8 @@ const myList = new SinglyLinkedList();
 myList.append(10);
 myList.append(5);
 myList.append(1);
-myList.append(16);
-myList.append(99);
 myList.append(2);
+myList.pop();
 console.log(myList);
 myList.reverse();
 console.log(myList);
@@ -162,4 +163,3 @@ console.log(myList);
 head.next = new ListNode(10);
 head.next.next = new ListNode(20);
 console.log(head); */ 
-//# sourceMappingURL=singleLinkedList.js.map

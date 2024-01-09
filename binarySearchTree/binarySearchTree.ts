@@ -159,11 +159,11 @@ class Tree<T> {
 
 function prettyPrint(node: TreeNode<number>, prefix = "", isLeft = true){
     if(node.right !== null){
-        prettyPrint(node.right, `${prefix}${isLeft ? "     " : " │  "}`, false);
+        prettyPrint(node.right, `${prefix}${isLeft ? "│    " : "    "}`, false);
     }
     console.log(`${prefix}${isLeft ? "└── " : "┌── "} ${node.value}`);
     if(node.left !== null){
-        prettyPrint(node.left, `${prefix}${isLeft ? " │   " : "    "}`, true);
+        prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
     }
 }
 

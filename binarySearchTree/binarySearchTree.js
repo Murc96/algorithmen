@@ -134,11 +134,11 @@ class Tree {
 }
 function prettyPrint(node, prefix = "", isLeft = true) {
     if (node.right !== null) {
-        prettyPrint(node.right, `${prefix}${isLeft ? "     " : " │  "}`, false);
+        prettyPrint(node.right, `${prefix}${isLeft ? "│    " : "    "}`, false);
     }
     console.log(`${prefix}${isLeft ? "└── " : "┌── "} ${node.value}`);
     if (node.left !== null) {
-        prettyPrint(node.left, `${prefix}${isLeft ? " │   " : "    "}`, true);
+        prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
     }
 }
 const data = [5, 8, 20, 33, 45, 100, 222, 567];
